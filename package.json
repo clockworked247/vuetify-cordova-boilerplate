@@ -6,6 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "dev": "vue-cli-service cordova-serve",
+    "prod": "vue-cli-service cordova-production",
+    "release": "vue-cli-service cordova-release",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
@@ -27,12 +30,15 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
+    "cross-spawn": "^6.0.5",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-vuetify": "^0.4.6",
-    "vue-template-compiler": "^2.5.21"
+    "vue-cli-plugin-vuetify-cordova": "0.0.13",
+    "vue-template-compiler": "^2.5.21",
+    "xml2js": "^0.4.19"
   },
   "eslintConfig": {
     "root": true,
@@ -80,5 +86,19 @@
       "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
     ],
     "testURL": "http://localhost/"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-device": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android",
+      "browser",
+      "ios"
+    ]
   }
 }
