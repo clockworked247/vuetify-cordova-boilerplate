@@ -6,7 +6,7 @@ import router from './router'
 import './registerServiceWorker'
 import cordovaLoader from './plugins/cordovaLoader'
 import store from './store'
-
+import './services/FontAwesome/fa.config'
 Vue.config.productionTip = false
 
 cordovaLoader(() => {

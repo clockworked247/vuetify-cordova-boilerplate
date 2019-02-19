@@ -1,6 +1,6 @@
 # Boilerplate for Vuetify and Cordova working with Vue CLI 3
 
-_Hi everyone, I'm working on a small project building a boilerplate for a Vuetify x Cordova project. Currently I have difficults to find a nice way to build a Vue x Cordova project and I needed to find a way for a Final Year Poject, so I decided to do it myself. I'm listening to all the evolutions I can add to this project, but Vue CLI 3 is now really nice to build project without or with minimal configuration. I'll try to keep it maintained but I'm also counting on you. Have fun guys !_
+_Hi everyone, I'm working on a small project building a boilerplate for a Vuetify x Cordova project. Currently I have difficulties to find a nice way to build a Vue x Cordova project and I needed to find a way for a Final Year Poject, so I decided to do it myself. I'm listening to all the evolutions I can add to this project, but Vue CLI 3 is now really nice to build project without or with minimal configuration. I'll try to keep it maintained but I'm also counting on you. Have fun guys !_
 
 ## You will find :
 - VueJS v2.6 with Vue CLI 3 powered project
@@ -8,9 +8,13 @@ _Hi everyone, I'm working on a small project building a boilerplate for a Vuetif
 - FontAwesome 5 (with pre-configured library)
 - Axios (with pre-configured instance)
 - Vuex
-- Cordova (with pre-configured routing building)
+- Cordova (with pre-configured route building)
 
 ## Requirements
+- Node and NPM installations
+- Android Studio with SDKs and JDKs // ADB configuration
+- Android Studio Configuration // ADB configuration
+
 - Install Cordova globaly :
 ```
   npm i -g cordova
@@ -19,9 +23,6 @@ _Hi everyone, I'm working on a small project building a boilerplate for a Vuetif
 ```
   npm i -g @vue/cli
 ```
-- Node and NPM installations
-- Android Studio with SDKs and JDKs // ADB configuration
-- Android Studio Configuration // ADB configuration
 
 ## Project setup
 ```
@@ -29,8 +30,9 @@ _Hi everyone, I'm working on a small project building a boilerplate for a Vuetif
 ```
 
 ## Set up Cordova App
-To test your Cordova App as Android App, please refer to the installation of Android Studio, JDKs, SDKs
-and everything needed for a great Android deployment. You can also try on your physical Android device by adding it to the ADB devices (Don't forget to check USB Debug in Developers Options).
+
+_To test your Cordova App as Android App, please refer to the installation of Android Studio, JDKs, SDKs
+and everything needed for a great Android deployment. You can also try on your physical Android device by adding it to the ADB devices (Don't forget to check USB Debug in Developers Options)._
 ------
 Then, all you have to do is create a new Cordova app in the root of the project : 
 ```

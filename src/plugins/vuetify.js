@@ -7,7 +7,9 @@ Vue.use(Vuetify, {
   customProperties: true,
   iconfont: 'fa',
   lang: {
-    locales: { fr },
+    locales: {
+      fr
+    },
     current: 'fr'
-  },
+  }
 })
